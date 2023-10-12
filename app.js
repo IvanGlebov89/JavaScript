@@ -3,3 +3,4 @@ console.log("two");
 console.log(2 + 4);
 console.log(3 + 4);
 console.log("проверка");
+console.log(" coхроняет только через прогу -_-");
