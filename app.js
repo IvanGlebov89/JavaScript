@@ -13,9 +13,12 @@ console.log(String(string) + 3);
 // if else
 
 const money = 100;
-const product = 150;
+const product = 40;
 if (money >= product) {
   console.log("товар куплен");
+  console.log(`${money - product} у вас осталось токенов`);
 } else {
-  console.log("у вас не достаточно средств");
+  console.log(
+    `не достаточно средств ! вам не хватило токенов ${product - money}`
+  );
 }
