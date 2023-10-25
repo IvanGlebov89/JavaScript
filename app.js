@@ -10,3 +10,12 @@ const age = "18";
 console.log(Number(age) + 5);
 const string = 21;
 console.log(String(string) + 3);
+// if else
+
+const money = 100;
+const product = 150;
+if (money >= product) {
+  console.log("товар куплен");
+} else {
+  console.log("у вас не достаточно средств");
+}
