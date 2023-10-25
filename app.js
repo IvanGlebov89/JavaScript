@@ -8,3 +8,5 @@ console.log("стоймость работы: " + payRateUSD * projectHours);
 
 const age = "18";
 console.log(Number(age) + 5);
+const string = 21;
+console.log(String(string) + 3);
