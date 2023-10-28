@@ -57,3 +57,15 @@ if (role === "manager") {
 } else {
   console.log("мы тебя не знаем");
 }
+
+switch (role) {
+  case "manager":
+    console.log("Менеджер");
+    break;
+  case "admin":
+    console.log("Админ");
+    break;
+  case "ceo":
+    console.log("Сео");
+    break;
+}
