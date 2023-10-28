@@ -74,5 +74,15 @@ switch (role) {
 
 const bmw = 100000;
 const ford = 10000;
-const budget = 200000;
-console.log(`я хочу купить ${budget > bmw ? " бмв" : " велосипед"}`);
+const budget = 20000;
+let message = budget > bmw ? " бмв" : budget > ford ? "форд" : "ведлосипед";
+console.log(`я хочу купить ${message}`);
+
+const captha = prompt(
+  "если вы не робот решите задачу сколько будет 7 + или -15 "
+);
+if (Number(captha) === 22 || Number(captha) === -8 || captha === "я не робот") {
+  alert("вы не робот");
+} else {
+  alert("вы рабокоп");
+}
