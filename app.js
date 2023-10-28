@@ -71,3 +71,8 @@ switch (role) {
   default:
     console.log("мы тебя не знаем");
 }
+
+const bmw = 100000;
+const ford = 10000;
+const budget = 200000;
+console.log(`я хочу купить ${budget > bmw ? " бмв" : " велосипед"}`);
