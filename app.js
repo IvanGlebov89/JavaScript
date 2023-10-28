@@ -46,7 +46,7 @@ if (result > houseCost) {
 // } else {
 //   alert("вы не угадали");
 // }
-const role = "manager";
+const role = "admin";
 
 if (role === "manager") {
   console.log("Менеджер");
@@ -68,4 +68,6 @@ switch (role) {
   case "ceo":
     console.log("Сео");
     break;
+  default:
+    console.log("мы тебя не знаем");
 }
