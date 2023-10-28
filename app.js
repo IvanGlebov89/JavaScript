@@ -40,9 +40,20 @@ if (result > houseCost) {
   console.log("купить не сможем");
 }
 
-const q = prompt("Введите число");
-if (Number(q) === 7) {
-  alert("вы угадали ");
+// const q = prompt("Введите число");
+// if (Number(q) === 7) {
+//   alert("вы угадали ");
+// } else {
+//   alert("вы не угадали");
+// }
+const role = "manager";
+
+if (role === "manager") {
+  console.log("Менеджер");
+} else if (role === "admin") {
+  console.log("Админ");
+} else if (role === "ceo") {
+  console.log("Сео");
 } else {
-  alert("вы не угадали");
+  console.log("мы тебя не знаем");
 }
